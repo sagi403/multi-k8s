@@ -9,8 +9,10 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Link to="/">Home</Link>
+        <Link to="/otherpage">Other Page</Link>
         <Routes>
-          <Route exact path="/" element={<Fib />} />
+          <Route path="/" element={<Fib />} />
           <Route path="/otherpage" element={<OtherPage />} />
         </Routes>
       </div>

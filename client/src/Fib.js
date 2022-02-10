@@ -50,7 +50,7 @@ const Fib = () => {
 
   return (
     <div>
-      <h1>Welcome To The Fibonacci Calculator</h1>
+      <h1>Welcome To The Fibonacci Calculator - version 2</h1>
 
       <div>
         <form onSubmit={handleSubmit}>
